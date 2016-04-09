@@ -1,4 +1,4 @@
-FROM larmog/armhf-alpine-java
+FROM larmog/armhf-alpine-java:jdk-8u73
 MAINTAINER Markus Hanses <me@markushanses.de>
 
 WORKDIR /data
