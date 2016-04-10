@@ -2,7 +2,7 @@ FROM larmog/armhf-alpine-java:jdk-8u73
 MAINTAINER Markus Hanses <me@markushanses.de>
 
 WORKDIR /data
-RUN wget http://www.redhat.com/j/elqNow/elqRedir.htm?ref=http://downloads.jboss.org/keycloak/1.9.1.Final/keycloak-1.9.1.Final.tar.gz
+RUN wget http://downloads.jboss.org/keycloak/1.9.1.Final/keycloak-1.9.1.Final.tar.gz
 RUN tar -xvfp keycloak-1.9.1.Final.tar.gz
 RUN rm keycloak-1.9.1.Final.tar.gz
 
